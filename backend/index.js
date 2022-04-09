@@ -6,6 +6,7 @@ const connectDB = require('./config/db')
 const port = process.env.PORT || 5000;
 const goalRoute = require('./routes/goalRoutes');
 const userRoute = require('./routes/userRoutes');
+const userRoute = require('../frontend/build/');
 
 
 
@@ -24,7 +25,7 @@ app.use('/api/users', userRoute);
 
 
 //Serve frontend
-
+__dirname = path.resolve();
 
 if(process.env.NODE_ENV === 'production'){
     app.use(express.static(path.join(__dirname, '../frontend/build')));
