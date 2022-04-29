@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+ body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+a {
+  text-decoration: none;
+  color: #fefefe;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  margin-bottom: 30px;
+  padding: 10px 0px;
+ 
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 130px;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+.form-group input {
+  padding: 10px 5px;
+}
+
+.form button {
+  background-color: transparent; /* Green */
+  border: 1.5px solid #fefefe;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.form button:hover{
+  background-color: #00d2ff;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 130px;
+}
+
+.welcome-message {
+  margin-top: 40px;
+  font-size: 21px;
+}
+
+.enterGoal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  max-width: 400px;
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #fefefe;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+
+
+
+button {
+  cursor: pointer;
+}
+
+.addGoal button {
+  
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 32px;
+  color: grey;
+  height: 100%;
+  
+}
+
+.enterGoal input {
+ 
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 35px;
+  padding: auto;
+}
+
+.goal.form.group {
+  flex: 4;
+}
+
+.addGoal {
+  flex: 1;
+}
+
+
+.goal {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.goalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  max-width: 400px;
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #fefefe;
+  margin-top: 10px;
+
+}
+
+
+.createdAt {
+  display: none;
+}
+
+
+.white h1,p, strong{
+  color: #fefefe;
+  font-weight: 500;
+}
+
+.white h2 {
+  color: #404040;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+
+.btnLogout button {
+  background-color: transparent;
+  border: none;
+  color: #fefefe;
+}
+
+.FaSignOutAlt {
+  color: aqua;
+}
+
+
+.container {
+  height: 100%;
+ 
+  
+}
+
+.goals {
+  margin-bottom: 50px;
+}
